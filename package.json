@@ -1,12 +1,11 @@
 {
-  "name": "qrcode",
+  "name": "test-qr-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "You can use this to generate QR codes for testing your QR code reader app.",
   "scripts": {
     "start": "ts-node index.ts"
   },
-  "author": "",
+  "author": "Ryo Kuroyanagi",
   "license": "MIT",
   "dependencies": {
     "@types/qrcode": "^1.4.0",
