@@ -112,6 +112,16 @@ const testData: TestData[] = [{
   segments: [
     { data: "สุขสันต์วันคริสต์มาส", mode: EncodingMode.BYTE },
   ],
+}, {
+  title: "tel: / byte",
+  segments: [
+    { data: "tel:09012345678", mode: EncodingMode.BYTE },
+  ],
+}, {
+  title: "sms / byte",
+  segments: [
+    { data: "sms:09012345678?body=hello", mode: EncodingMode.BYTE },
+  ],
 }]
 
 async function generate (
